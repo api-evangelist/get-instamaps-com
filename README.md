@@ -1,4 +1,4 @@
-# get-instamaps-com
+# InstaMaps
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-get-instamaps-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://get-instamaps.com/
+InstaMaps provides location formulas for Google Sheets, enabling users to geocode addresses, generate live maps, calculate routes, distances, and territories directly within spreadsheets. The service is free, requires no API key or login, and supports over 73,000 addresses across 84+ countries.
+
+**Areas:** Geocoding · Mapping · Route Planning · Google Sheets Add‑on · Location Data · Field Service · Sales Territory
+
+## InstaMaps on APIs.io
+
+Everything profiled for InstaMaps is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/get-instamaps-com/](https://apis.io/providers/get-instamaps-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [InstaMaps Around a place API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-around-a-place-api/) — The Around a place API from InstaMaps — 2 operation(s) for around a place.
+- [InstaMaps Ask a table API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-ask-a-table-api/) — The Ask a table API from InstaMaps — 1 operation(s) for ask a table.
+- [InstaMaps Facts and risk API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-facts-and-risk-api/) — The Facts and risk API from InstaMaps — 4 operation(s) for facts and risk.
+- [InstaMaps Maps API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-maps-api/) — The Maps API from InstaMaps — 4 operation(s) for maps.
+- [InstaMaps Measure API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-measure-api/) — The Measure API from InstaMaps — 4 operation(s) for measure.
+- [InstaMaps Place API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-place-api/) — The Place API from InstaMaps — 1 operation(s) for place.
+- [InstaMaps Route API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-route-api/) — The Route API from InstaMaps — 1 operation(s) for route.
+- [InstaMaps Runs and jobs API](https://apis.io/apis/get-instamaps-com/get-instamaps-com-runs-and-jobs-api/) — The Runs and jobs API from InstaMaps — 3 operation(s) for runs and jobs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [InstaMaps Agentic Access](https://apis.io/agentic-access/get-instamaps-com/get-instamaps-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [InstaMaps API Rules](https://apis.io/rules/get-instamaps-com/get-instamaps-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [InstaMaps Authentication](https://apis.io/security/get-instamaps-com/get-instamaps-com-authentication/)
+- [InstaMaps Domain Security](https://apis.io/security/get-instamaps-com/get-instamaps-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [InstaMaps Plans Pricing](https://apis.io/plans/get-instamaps-com/get-instamaps-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://get-instamaps.com/)
+- [Documentation](https://get-instamaps.com/docs)
+- [Getting started](https://get-instamaps.com/blog/construction-crm)
+- [API reference](https://get-instamaps.com/developers/portal)
+- [Support](https://get-instamaps.com/support)
+- [Blog](https://get-instamaps.com/blog)
+- [Terms of service](https://get-instamaps.com/terms)
+- [Privacy policy](https://get-instamaps.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.8** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 50.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 40.0 |
+
+**Agent readiness 54.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/get-instamaps-com/](https://apis.io/providers/get-instamaps-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for InstaMaps: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/get-instamaps-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
